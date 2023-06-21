@@ -41,4 +41,4 @@ jurosSimplesT=0
       document.write("\n Juros compostos totais: " +jurosCompostoT.toFixed(2));//imprimir tudo através da formula.
       
       //ou usar a formula de juros composto
-      document.write("\n Juros compostos totais: "+ (capital*Math.pow(1+taxa_de_juros/100,período)-1)).toFixed(2)
+      document.write("\n Juros compostos totais: " +(capital*(Math.pow(1+taxa_de_juros/100,periodo)-1)).toFixed(2))
