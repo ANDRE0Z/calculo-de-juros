@@ -32,12 +32,13 @@ jurosSimplesT=0
     
       {
       juros_composto=capitalAcumulado*taxa_de_juros/100
-      document.write(`\n Juros compostos no mês` + (i+1) +" :"+juros_composto.toFixed(2));
 
+      document.write(`\n Juros compostos no mês` + (i+1) +" :"+juros_composto.toFixed(2));
       jurosCompostoT+= juros_composto 
       capitalAcumulado+=juros_composto
       }
 
-      document.write("\n Juros compostos totais: " +jurosCompostoT.toFixed(2)); //imprimir o que acumular.
-      //imprimir tudo através da formula.
+      document.write("\n Juros compostos totais: " +jurosCompostoT.toFixed(2));//imprimir tudo através da formula.
       
+      //ou usar a formula de juros composto
+      document.write("\n Juros compostos totais: "+ (capital*Math.pow(1+taxa_de_juros/100,período)-1)).toFixed(2)
