@@ -24,13 +24,13 @@
 
       {
       juros_simples=capital*taxa_de_juros/100
-      document.write(`\n Juros simples no mês` + (i+1) +" :"+juros_simples.toFixed(2));
+      document.write(`\n Juros simples no mês ` + (i+1) +" : $"+juros_simples.toFixed(2));
       jurosSimplesT+= juros_simples //jurosSimplesT = juros_simples + juros_simples
       }
 
-      document.write("\n Juros simples totais: " +jurosSimplesT.toFixed(2)); //imprimir o que acumular.
+      document.write("\n Rendimento total da aplicação: $" +jurosSimplesT.toFixed(2)); //imprimir o que acumular.
 
-      document.write("\n Juros simples totais " +capital*taxa_de_juros/100*periodo + "\n\n") 
+      document.write("\n Rendimento total da aplicação: $" +capital*taxa_de_juros/100*periodo + "\n\n") 
       //imprimir tudo através da formula.
       
       
@@ -43,13 +43,13 @@
     
       {
       juros_composto=capitalAcumulado*taxa_de_juros/100
-      document.write(`\n Juros compostos no mês` + (i+1) +" :"+juros_composto.toFixed(2));
+      document.write(`\n Juros simples no mês: ` + (i+1) +" :$"+juros_composto.toFixed(2));
 
       jurosCompostoT+= juros_composto 
       capitalAcumulado+=juros_composto
       }
 
-      document.write("\n Juros compostos totais: " +jurosCompostoT.toFixed(2)); //imprimir o que acumular.
+      document.write("\n Rendimento total da aplicação: $" +jurosCompostoT.toFixed(2)); //imprimir o que acumular.
       //imprimir tudo através da formula.
       
   </script>
