@@ -6,4 +6,4 @@
 <p align="center"><b>Fórmula: j = c.i.t</b></p>
 <p align="center"> Juros = (capital)*(taxa)*(tempo)</p>
 
-<p align="center"><i>Calcular o rendimento mensal e total, utilizando juros composto</i></p>
+<p align="center"><i>Calcular o rendimento mensal e total, utilizando</i> <b>juros composto<b></p>
