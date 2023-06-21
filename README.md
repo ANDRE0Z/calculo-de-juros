@@ -2,7 +2,7 @@
 
 <p align="center"><i>Criando um algoritmo básico que efetua o cálculo de juros simples e composto.</i></p>
 
-<p align="center"><i>Calcular o rendimento mensal e total, utilizando juros simples</i></p>
+<p align="center"><i>Calcular o rendimento mensal e total, utilizando <b>juros simples<b></i></p>
 <p align="center"><b>Fórmula: j = c.i.t</b></p>
 <p align="center"> Juros = (capital)*(taxa)*(tempo)</p>
 
